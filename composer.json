@@ -1,9 +1,9 @@
 {
-    "name": "magento/module-tax",
+    "name": "mestrona/magento-module-bundlecustomoptions",
     "description": "N/A",
     "require": {
         "php": "~5.5.0|~5.6.0",
-        "mestrona/magento-module-bundlecustomoptions": "*"
+        "magento/module-bundle": "*"
     },
     "type": "magento2-module",
     "license": [
