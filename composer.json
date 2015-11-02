@@ -1,6 +1,6 @@
 {
     "name": "mestrona/magento-module-bundlecustomoptions",
-    "description": "N/A",
+    "description": "Magento2 Module to work around the message 'This module allows to configure custom options for bundle products with dynamic pricing.'",
     "require": {
         "php": "~5.5.0|~5.6.0",
         "magento/module-bundle": "*"
