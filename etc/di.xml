@@ -1,6 +1,10 @@
 <?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <type name="Magento\Bundle\Model\Product\Type">
         <plugin name="BundleCustomOptions" type="Mestrona\BundleCustomOptions\Model\Product\Plugin\Type" sortOrder="50" />
+    </type>
+    <type name="Magento\Bundle\Ui\DataProvider\Product\Form\Modifier\BundleCustomOptions">
+        <plugin sortOrder="1" name="BundleCustomOptions"
+                type="Mestrona\BundleCustomOptions\Plugin\Ui\DataProvider\Product\Form\Modifier\BundleCustomOptionsPlugin"/>
     </type>
 </config>
